@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS DEMO</title>
+</head>
+<body>
+  <ol>
+    <li id="special">First</li>
+    <li>Second</li>
+  </ol>
+  <h1 id="special">Hello</h1>
+  <button>Button 1</button>
+  <button>Button 2</button>
+  <div class="red"></div>
+  <div class="blue"></div>
+  <a href="naver.com">Naver</a>
+  <a href="googlenaver.com">Google</a>
+  <a>Empty</a>
+</body>
+</html>
+
+
+/*selector {
+  property: value;
+} */
+
+* {
+  color: green; 
+  /* 모든태그 선택 */
+}
+
+li {
+  color: blue;
+  /* tag 이름 선택 */
+}
+
+li#special {
+  /* li의 special만 선택 */
+  color: pink;
+  /* id selector */
+}
+
+.red {
+  /* class */
+  width: 100px;
+  height: 100px;
+  padding: 20px 0px; /* 위 아래 */
+  margin: 20px;
+  border: 2px dashed red;
+  background: yellow;
+}
+
+button:hover {
+  color: red;
+  background: beige;
+}
+/* 마우스를 올리면 바뀜 */
+
+a[href^="naver"] {
+  /* 링크가 있는 애들만 */
+  /* 그 중 naver로 시작하는 애들만 */
+  color: purple;
+}
+
+
