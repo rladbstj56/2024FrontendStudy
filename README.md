@@ -29,3 +29,4 @@
 * fixed : 웹 페이지의 position에서 설정 반영
 * sticky : 원래 static 자리에 반영 후 스크롤 하면 변화 없이 그대로 위치
 * 호환성 확인 : https://caniuse.com/
+* 색깔 코드 : https://www.materialpalette.com/ https://coolors.co/ https://www.grabient.com/ https://webgradients.com/ https://www.happyhues.co/palettes/15
